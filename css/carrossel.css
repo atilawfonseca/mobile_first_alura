@@ -1,0 +1,22 @@
+.carrossel__titulo {
+    color: var(--laranja);
+    background-color: white;
+    padding: 1.5em 0px 0.5em 0px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-pagination {
+    position: initial;
+    margin-bottom: 0.5em;
+}
+.saiba-mais-estrelinhas {
+    width: 70%;
+}

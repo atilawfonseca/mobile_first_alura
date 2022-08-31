@@ -1,0 +1,61 @@
+.cabecalho {
+    width: 100vw;
+    height: 4em;
+    padding: 1em;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    position: relative;
+}
+.menu {
+    /*sempre dentro de aspas dupla*/
+    background-image: url("..//img/Menu.svg");
+    width: 35px;
+    height: 24px;
+    display: inline-block;
+    
+}
+.cabecalho__container{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    
+
+}
+/*depois que definir esse funcionamento do checkbox, para fazer o meneu__links aparecer deve 
+por o menu__links como display none */
+
+.container__button:checked~.menu__categorias {
+    display: block;
+    
+}
+.container__button {
+    display: none;
+   
+}
+.menu__categorias {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: white;
+    width: 80vw;
+    left: 0px;
+    
+}
+.menu__categoria {
+    padding: 1em;
+}
+.menu__categoria a {
+    text-decoration: none;
+    color: var(--azul-gradiente);
+    font-weight: 400;
+}
+.nome__menu-categoria {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+

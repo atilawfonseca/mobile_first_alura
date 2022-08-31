@@ -1,0 +1,24 @@
+@import url(css/header.css);
+@import url(css/banner.css);
+@import url(css/carrossel.css);
+@import url(css/saiba-mais.css);
+@import url(css/rodape.css);
+
+:root {
+    --laranja:#EB9B00;
+    --branco: #FFFFFF;
+    --cor-fundo:#EBECEE;
+    --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul-letra: #002F52;
+    --back-grupo-alura: #F9F9F9;
+    --divisao-grupo-alura: #858585;
+
+
+
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--cor-fundo);
+    
+}

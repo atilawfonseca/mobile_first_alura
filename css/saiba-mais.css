@@ -1,0 +1,66 @@
+.principal__saiba-mais {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90vw;
+    background-color: white;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 1em auto;
+    gap: 0.5em;
+    border-radius: 10px;
+}
+.principal__saiba-mais-esquer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+.saiba-mais-titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    width: 100%; 
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.saiba-mais-angular-firebase {
+    font-size: 18px;
+    color: var(--azul-letra);
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.saiba-mais-paragrafo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+.saiba-mais-icones {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+
+}
+.principal__saiba-mais-direi {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-between;
+}
+.principal__saiba-mais-direi img {
+    padding: 0px 0.5em 0.5em 0.5em; 
+}
+
+.saiba-mais-botao {
+    box-sizing: border-box;
+    width: 90%; 
+    height: 48px;
+    margin: 0px auto;
+    padding: 0.5em 2em;
+    background-color: var(--laranja);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
