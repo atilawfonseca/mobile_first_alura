@@ -63,3 +63,69 @@
     padding: 1.5em 1em;
     border-top: 1px solid var(--divisao-grupo-alura);
 }
+
+@media screen and (min-width:1024px) {
+    .topicos-titulos {
+        font-weight: 300;
+        font-size: 24px;
+    }
+    .topicos-links li a {
+        font-size: 24px;
+        padding: 1.5em;
+    }
+    .dentro-novidades {
+        display: flex;
+        flex-direction: row;
+        padding: 3em 2em;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .novidades__titulo-texto {
+        width: 35%;
+    }
+    .dentro-novidades-titulo {
+        font-size: 24px;
+        margin-bottom: 2em;
+    }
+    .dentro-novidades-texto {
+        font-size: 16px;
+    }
+    .dentro-novidades-link {
+        width: 30%;
+        height: 10%;
+    }
+    .grupo-alura {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+    .footer-educacao, .footer-edu-online, .footer-edu-comunidade, .grupo-alura h2 {
+        padding: 1em;
+    }
+    .footer-educacao, .footer-edu-online, .footer-edu-comunidade {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .footer-educacao-titulo, .footer-edu-online-titulo, .footer-edu-comunidade-titulo {
+        color: var(--divisao-grupo-alura);
+        font-size: 14px;
+    }
+    .grupo-alura div a {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+    }
+    .grupo-alura div a p {
+        font-size: 14px;
+        color: var(--letra-footer);
+        ;
+    }
+    .footer-edu-online a, .footer-edu-comunidade a {
+        gap: 0.5rem;
+    }
+    .footer-educacao-titulo, .footer-edu-online-titulo, .footer-edu-comunidade-titulo {
+        margin-bottom: 1.5em;
+    }
+
+}

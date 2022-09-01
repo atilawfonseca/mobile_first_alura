@@ -144,7 +144,7 @@
                 </div>
             </div>
             <div class="principal__saiba-mais-direi">
-                <img src="img/Perfil-escritora 1.png" alt="angular">
+                <img src="img/Perfil-escritora 1.png" alt="angular" >
                 <button class="saiba-mais-botao">saiba mais</button>
             </div>
 
@@ -166,8 +166,10 @@
             </ul>
         </div>
         <div class="dentro-novidades">
-            <h2 class="dentro-novidades-titulo">Fique por dentro das novidades!</h2>
-            <p class="dentro-novidades-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <div class="novidades__titulo-texto">
+                <h2 class="dentro-novidades-titulo">Fique por dentro das novidades!</h2>
+                <p class="dentro-novidades-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
             <a href="#" class="dentro-novidades-link">
                 <img src="img/Email.svg" alt="email">
                 <p>Cadastre seu e-mail</p>
@@ -175,6 +177,81 @@
         </div>
         <div class="grupo-alura">
             <h2>Grupo Alura</h2>
+            <div class="footer-educacao">
+                <h3 class="footer-educacao-titulo">EDUCAÇÃO</h3>
+                <a href="#">
+                    <img src="img/icones-footer/Caelum.svg" alt="">
+                    <p>Caelum</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/CasaDoCodigo.svg" alt="">
+                    <p>Casa do Código</p>
+                </a>
+            </div>
+            <div class="footer-edu-online">
+                <h3 class="footer-edu-online-titulo">EDUCAÇÃO ONLINE</h3>
+                <a href="#">
+                    <img src="img/icones-footer/Alura.svg" alt="">
+                    <p>Alura</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/AluraEmpresas.svg" alt="">
+                    <p>Alura Para Empresas</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/Alura.svg" alt="">
+                    <p>Alura LATAM</p>
+                </a>
+                 <a href="#">
+                    <img src="img/icones-footer/AluraStart.svg" alt="">
+                    <p>Alura Start</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/MusicDot.svg" alt="">
+                    <p>MusicDot</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/AluraLingua.svg" alt="">
+                    <p>Alura língua</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/PM3.svg" alt="">
+                    <p>PM3</p>
+                </a>
+                                
+            </div>
+            <div class="footer-edu-comunidade">
+                <h3 class="footer-edu-comunidade-titulo">COMUNIDADE</h3>
+                <a href="#">
+                    <img src="img/icones-footer/HipstersTech.svg" alt="">
+                    <p>Hipsters ponto Tech</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/ScubaDev.svg" alt="">
+                    <p>Scuba Dev</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/LayersTech.svg" alt="">
+                    <p>Layers ponto Tech</p>
+                </a>
+                 <a href="#">
+                    <img src="img/icones-footer/LikeABoss.svg" alt="">
+                    <p>Like a Boss</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/CarreiraSemFronteira.svg" alt="">
+                    <p>Carreira sem Fronteira</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/HipstersJobs.svg" alt="">
+                    <p>Hipsters ponto Jobs</p>
+                </a>
+                <a href="#">
+                    <img src="img/icones-footer/GUJ.svg" alt="">
+                    <p>GUJ</p>
+                </a>
+                                
+            </div>
         </div>
     </footer>
    
@@ -187,6 +264,10 @@
             el: '.swiper-pagination',
             type: 'bullets',
             },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+            },   
         }
         );
     </script>

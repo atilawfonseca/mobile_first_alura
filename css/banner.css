@@ -41,3 +41,21 @@
     
 
 }
+
+@media screen and (min-width:1024px) {
+
+    .banner{
+        padding-bottom: 3em;
+    }
+    .banner-titulo {
+        font-size: 36px;
+        margin-top: 1.5em;
+        margin-bottom: 0px;
+    }
+
+    .banner-busca {
+        width: 50%;
+        margin: 1em auto;
+        padding: 1em 0px;
+    }
+}

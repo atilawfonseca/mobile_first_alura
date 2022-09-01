@@ -64,3 +64,17 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+@media screen and (min-width:1024px) {
+    .principal__saiba-mais {
+        width: 45%;
+        margin: 3em auto;
+    }
+    .principal__saiba-mais {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .saiba-mais-estrelinhas {
+        width: 45%;
+    }
+}
