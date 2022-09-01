@@ -32,6 +32,8 @@ por o menu__links como display none */
     display: block;
     
 }
+
+
 .container__button {
     display: none;
    
@@ -57,5 +59,57 @@ por o menu__links como display none */
     color: var(--laranja);
     font-weight: 700;
 }
+.cabecalho__logo-alurabooks {
+    display: none;
+}
 
+.lista__itens {
+    display: none;
+}
 
+ @media screen and (min-width:1024px) {
+    .lista__itens {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .cabecalho__logo-alurabooks b{
+        font-weight: 700;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+    }
+    .cabecalho__logo-alurabooks {
+        display: block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+    }
+
+    .menu_categorias-1024px, .menu, #menu {
+        display: none;
+    }
+    .menu_categoriasx2024{
+        position: absolute;
+        background-color: white;
+        padding: 0.8em;
+    }
+    .menu__categoriaX2024 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        
+    }
+    #categorias{
+        display: none;
+    }
+    #categorias:checked~.menu_categoriasx2024{
+        display: none;
+    }
+    .menu__categoriaX2024 a{
+        text-decoration: none;
+        color: var(--azul-letra);
+    }
+ }

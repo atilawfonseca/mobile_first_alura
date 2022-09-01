@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <link rel="stylesheet" href="css/reset.css">
@@ -20,16 +20,37 @@
             <label for="menu">
                 <span class="menu"></span>
             </label>
-            <ul class="menu__categorias">
-                <li class="menu__categoria nome__menu-categoria">Categorias</li>
-                <li class="menu__categoria"><a href="#" >PROGRAMAÇÃO</a></li>
+            <ul class="menu__categorias menu_categorias-1024px">
+                <li class="menu__categoria nome__menu-categoria" >Categorias</li>
+                <li class="menu__categoria nome__menu-categoria-programacao"><a href="#" >PROGRAMAÇÃO</a></li>
                 <li class="menu__categoria"><a href="#">FRONT-END</a></li>
                 <li class="menu__categoria"><a href="#">INFRAESTRUTURA</a></li>
                 <li class="menu__categoria"><a href="#">BUSINESS</a></li>
                 <li class="menu__categoria"><a href="#">DESIGN & UX</a></li>
             </ul>
-            <img src="img/Logo.svg" alt="logo do site">
+            <img src="img/Logo.svg" alt="logo do site" class="cabecalho__logo-triangulo">
+            <h2 class="cabecalho__logo-alurabooks"><b>Alura</b>Books</h2>
         </div>
+        
+        <div class="lista__itens">
+            <div>
+                <label for="categorias">
+                    <h2 class="categorias">Categorias</h2>
+                </label>
+                <input type="checkbox" id="categorias">
+                <ul class="menu_categoriasx2024">
+                    <li class="menu__categoriaX2024"><a href="#" >PROGRAMAÇÃO</a></li>
+                    <li class="menu__categoriaX2024"><a href="#">FRONT-END</a></li>
+                    <li class="menu__categoriaX2024"><a href="#">INFRAESTRUTURA</a></li>
+                    <li class="menu__categoriaX2024"><a href="#">BUSINESS</a></li>
+                    <li class="menu__categoriaX2024"><a href="#">DESIGN & UX</a></li>
+                </ul>
+            </div>
+            
+            <a>Favoritos</a>
+            <a>minha estante</a>
+        </div>
+        
         <div class="cabecalho__container">
             <a href="#"><img src="img/Favoritos.svg" alt="favoritos"></a>
             <a href="#"><img src="img/Compras.svg" alt="compras"></a>
