@@ -46,6 +46,7 @@
 
     .banner{
         padding-bottom: 3em;
+        width: 100vw;
     }
     .banner-titulo {
         font-size: 36px;

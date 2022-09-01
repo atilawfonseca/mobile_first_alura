@@ -91,8 +91,16 @@ por o menu__links como display none */
         font-family: 'Josefin Sans', sans-serif;
         font-size: 30px;
     }
-
-    .menu_categorias-1024px, .menu, #menu {
+    #categorias {
+        display: none;
+    }
+    .menu_categoriasx2024 {
+        display: none;
+    }
+    #categorias:checked~.menu_categoriasx2024 {
+        display: block;
+    }
+    .menu, #menu {
         display: none;
     }
     .menu_categoriasx2024{
@@ -105,12 +113,7 @@ por o menu__links como display none */
         margin-bottom: 1em;
         
     }
-    #categorias{
-        display: none;
-    }
-    #categorias:checked~.menu_categoriasx2024{
-        display: none;
-    }
+   
     .menu__categoriaX2024 a{
         text-decoration: none;
         color: var(--azul-letra);
@@ -124,13 +127,14 @@ por o menu__links como display none */
     .cabecalho {
         display: grid;
         grid-template-columns: 1fr 2fr 2fr;
-        padding: 0px;
+        padding: 0px 3em;
         align-items: center;
-        margin: 0px;
+        margin: 0px auto;
         height: auto;
+        
     }
     .lista__itens {
-        width: 100%;
+        width: 100%;    
         display: flex;
         flex-direction: row;
         justify-content: space-around;
