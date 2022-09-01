@@ -91,14 +91,15 @@ por o menu__links como display none */
         font-family: 'Josefin Sans', sans-serif;
         font-size: 30px;
     }
-    #categorias {
-        display: none;
+    
+    #categorias:checked~.menu_categoriasx2024 {
+        display: block;
     }
     .menu_categoriasx2024 {
         display: none;
     }
-    #categorias:checked~.menu_categoriasx2024 {
-        display: block;
+    #categorias {
+        display: none;
     }
     .menu, #menu {
         display: none;
@@ -107,11 +108,6 @@ por o menu__links como display none */
         position: absolute;
         background-color: white;
         padding: 0.8em;
-    }
-    .menu__categoriaX2024 {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        
     }
    
     .menu__categoriaX2024 a{
@@ -145,9 +141,6 @@ por o menu__links como display none */
         justify-content: end;
     }
     .cabecalho__container--favoritos {
-        display: none;
-    }
-    #categorias:checked~.menu_categoriasx2024{
         display: none;
     }
     .cabecalho__container--compras, .cabecalho__container--usuario {
