@@ -132,3 +132,33 @@
     }
 
 }
+
+@media screen and (min-width:1674px) {
+    .topicos-links {
+        width: 40%;
+        margin: 1em auto;
+    }
+    .dentro-novidades {
+        justify-content: center;
+    }
+    
+    .novidades__titulo-texto, .dentro-novidades-link {
+        width: 22%;
+        
+    }
+    .footer-educacao, .footer-edu-online {
+        border-right: 1px solid var(--divisao-grupo-alura);
+        padding-top: 0px;
+        margin-top: 3em;
+
+    }
+    .footer-edu-comunidade {
+        padding-top: 0px;
+        margin-top: 3em;
+    }
+    .grupo-alura h2{
+        padding-top: 0px;
+        margin-top: 3em;
+    }
+    
+}

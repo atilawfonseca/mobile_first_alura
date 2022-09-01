@@ -32,4 +32,27 @@
     .swiper-button-prev, .swiper-button-next {
         display: block;
     }
+    .carrossel__titulo {
+        font-size: 32px;
+    }
+    .principal__conteudo{
+        display: block;
+    }
+}
+@media screen and (min-width:1673px) {
+    .principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .swiper {
+        width: 34vw;
+    }
+    .principal__conteudo {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        width: 70%;
+        gap: 1em;
+        margin: 1em auto;
+    }
+    
 }

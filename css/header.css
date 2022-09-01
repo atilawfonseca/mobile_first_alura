@@ -66,6 +66,9 @@ por o menu__links como display none */
 .lista__itens {
     display: none;
 }
+.cabecalho__container--compras p, .cabecalho__container--usuario p {
+    display: none;
+}
 
  @media screen and (min-width:1024px) {
     .lista__itens {
@@ -112,4 +115,47 @@ por o menu__links como display none */
         text-decoration: none;
         color: var(--azul-letra);
     }
+    .cabecalho__container--compras p, .cabecalho__container--usuario p {
+        display: none;
+    }
+ }
+
+ @media screen and (min-width:1673px) {
+    .cabecalho {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+        padding: 0px;
+        align-items: center;
+        margin: 0px;
+        height: auto;
+    }
+    .lista__itens {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .cabecalho__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .cabecalho__container--favoritos {
+        display: none;
+    }
+    #categorias:checked~.menu_categoriasx2024{
+        display: none;
+    }
+    .cabecalho__container--compras, .cabecalho__container--usuario {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    .cabecalho__container--usuario {
+        gap: 1em
+    }
+    .cabecalho__container--compras p, .cabecalho__container--usuario p {
+        display: block;
+    }
+    
  }

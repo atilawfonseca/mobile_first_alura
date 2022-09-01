@@ -52,9 +52,9 @@
         </div>
         
         <div class="cabecalho__container">
-            <a href="#"><img src="img/Favoritos.svg" alt="favoritos"></a>
-            <a href="#"><img src="img/Compras.svg" alt="compras"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="usuario"></a>
+            <a href="#" class="cabecalho__container--favoritos"><img src="img/Favoritos.svg" alt="favoritos"></a>
+            <a href="#" class="cabecalho__container--compras"><img src="img/Compras.svg" alt="compras"><p>Minha sacola</p></a>
+            <a href="#" class="cabecalho__container--usuario"><img src="img/Usuario.svg" alt="usuario"><p>Meu perfil</p></a>
         </div>
     </header>
     <main class="principal">
@@ -65,91 +65,98 @@
                 <input type="search" placeholder="Qual será sua próxima leitura?" class="banner-busca">
             </a>
         </section>
-        <section class="carrossel">
-            <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="apache kafka"></div>
-                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="guia front-end"> </div>
-                <div class="swiper-slide"> <img src="img/Liderança.svg" alt="liderança"></div>
-                <div class="swiper-slide"> <img src="img/Javascript.svg" alt="liderança"></div>
-                <div class="swiper-slide"><img src="img/Construct2.svg" alt="guia construcao"> </div>
-                <div class="swiper-slide"> <img src="img/Gestão.svg" alt="guia gestao"></div>
-                <div class="swiper-slide"> <img src="img/MetricasAgeis.svg" alt="livro guia metrica ágeis "></div>
+        <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+        <div class="principal__conteudo">
+            <section class="carrossel">
+                
+                <!-- Slider main container -->
+                
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="apache kafka"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="guia front-end"> </div>
+                    <div class="swiper-slide"> <img src="img/Liderança.svg" alt="liderança"></div>
+                    <div class="swiper-slide"> <img src="img/Javascript.svg" alt="liderança"></div>
+                    <div class="swiper-slide"><img src="img/Construct2.svg" alt="guia construcao"> </div>
+                    <div class="swiper-slide"> <img src="img/Gestão.svg" alt="guia gestao"></div>
+                    <div class="swiper-slide"> <img src="img/MetricasAgeis.svg" alt="livro guia metrica ágeis "></div>
+                    </div>
+                
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
                 </div>
-            
-            
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            
-            </div>
-        </section>
-        <section class="principal__saiba-mais">
-            <div class="principal__saiba-mais-esquer">
-                <h2 class="saiba-mais-titulo">Talvez você também se interesse por...</h2>
-                <h2 class="saiba-mais-angular-firebase">Angular 11 e Firebase</h2>
-                <p class="saiba-mais-paragrafo">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                <div class="saiba-mais-icones">
-                    <a href="#"><img src="img/Favoritos.svg" alt="favoritos"></a>
-                    <a href="#"><img src="img/Sacola.svg" alt="sacola de compras"></a>
+            </section>
+            <section class="principal__saiba-mais">
+                <div class="principal__saiba-mais-esquer">
+                    <h2 class="saiba-mais-titulo">Talvez você também se interesse por...</h2>
+                    <h2 class="saiba-mais-angular-firebase">Angular 11 e Firebase</h2>
+                    <p class="saiba-mais-paragrafo">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="saiba-mais-icones">
+                        <a href="#"><img src="img/Favoritos.svg" alt="favoritos"></a>
+                        <a href="#"><img src="img/Sacola.svg" alt="sacola de compras"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="principal__saiba-mais-direi">
-                <img src="img/Angular.svg" alt="angular">
-                <button class="saiba-mais-botao">saiba mais</button>
-            </div>
-
-        </section>
-
-        <section class="carrossel">
-            <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="apache kafka"></div>
-                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="guia front-end"> </div>
-                <div class="swiper-slide"> <img src="img/Liderança.svg" alt="liderança"></div>
-                <div class="swiper-slide"> <img src="img/Javascript.svg" alt="liderança"></div>
-                <div class="swiper-slide"><img src="img/Construct2.svg" alt="guia construcao"> </div>
-                <div class="swiper-slide"> <img src="img/Gestão.svg" alt="guia gestao"></div>
-                <div class="swiper-slide"> <img src="img/MetricasAgeis.svg" alt="livro guia metrica ágeis "></div>
+                <div class="principal__saiba-mais-direi">
+                    <img src="img/Angular.svg" alt="angular">
+                    <button class="saiba-mais-botao">saiba mais</button>
                 </div>
-            
-            
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            
-            </div>
-        </section>
-        <section class="principal__saiba-mais">
-            <div class="principal__saiba-mais-esquer">
-                <img src="img/Estrelinhas.svg" alt="estrelinhas" class="saiba-mais-estrelinhas">
-                <h2 class="saiba-mais-titulo">Autora do Mês</h2>
-                <h2 class="saiba-mais-angular-firebase">Juliana Agarikov</h2>
-                <p class="saiba-mais-paragrafo">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
-                <div class="saiba-mais-icones">
-                    <a href="#"><img src="img/Favoritos.svg" alt="favoritos"></a>
-                    <a href="#"><img src="img/Sacola.svg" alt="sacola de compras"></a>
+
+            </section>
+        </div>
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+        
+        <div class="principal__conteudo">
+            <section class="carrossel">
+                
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="apache kafka"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="guia front-end"> </div>
+                    <div class="swiper-slide"> <img src="img/Liderança.svg" alt="liderança"></div>
+                    <div class="swiper-slide"> <img src="img/Javascript.svg" alt="liderança"></div>
+                    <div class="swiper-slide"><img src="img/Construct2.svg" alt="guia construcao"> </div>
+                    <div class="swiper-slide"> <img src="img/Gestão.svg" alt="guia gestao"></div>
+                    <div class="swiper-slide"> <img src="img/MetricasAgeis.svg" alt="livro guia metrica ágeis "></div>
+                    </div>
+                
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
                 </div>
-            </div>
-            <div class="principal__saiba-mais-direi">
-                <img src="img/Perfil-escritora 1.png" alt="angular" >
-                <button class="saiba-mais-botao">saiba mais</button>
-            </div>
+            </section>
+        
+            <section class="principal__saiba-mais">
+                <div class="principal__saiba-mais-esquer">
+                    <img src="img/Estrelinhas.svg" alt="estrelinhas" class="saiba-mais-estrelinhas">
+                    <h2 class="saiba-mais-titulo">Autora do Mês</h2>
+                    <h2 class="saiba-mais-angular-firebase">Juliana Agarikov</h2>
+                    <p class="saiba-mais-paragrafo">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    <div class="saiba-mais-icones">
+                        <a href="#"><img src="img/Favoritos.svg" alt="favoritos"></a>
+                        <a href="#"><img src="img/Sacola.svg" alt="sacola de compras"></a>
+                    </div>
+                </div>
+                <div class="principal__saiba-mais-direi">
+                    <img src="img/Perfil-escritora 1.png" alt="angular" >
+                    <button class="saiba-mais-botao">saiba mais</button>
+                </div>
 
-        </section>
-
+            </section>
+        </div>
     </main>
     <footer>
         <div class="topicos">
