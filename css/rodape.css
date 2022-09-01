@@ -146,7 +146,7 @@
         width: 22%;
         
     }
-    .footer-educacao, .footer-edu-online {
+    .footer-educacao, .footer-edu-online, .grupo-alura h2 {
         border-right: 1px solid var(--divisao-grupo-alura);
         padding-top: 0px;
         margin-top: 3em;
