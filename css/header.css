@@ -154,5 +154,9 @@ por o menu__links como display none */
     .cabecalho__container--compras p, .cabecalho__container--usuario p {
         display: block;
     }
+
+    .cabecalho__container--compras p, .cabecalho__container--usuario p {
+        color: black;
+    }
     
  }

@@ -59,4 +59,11 @@
         margin: 1em auto;
         padding: 1em 0px;
     }
+
+}
+
+@media screen and (min-width:1674px){
+    .banner-busca {
+        width: 25vw;
+    }
 }
